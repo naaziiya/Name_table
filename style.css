@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+}    
+h1{
+    text-decoration: underline;
+} 
+input{
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    width: 300px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.btn{
+    margin-bottom: 20px;
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: green;
+    color: #fff;   
+}
+.btn:hover{
+    background-color: rgb(9, 156, 9);
+    outline: none;
+}
+table{
+  margin: auto; 
+}
+th, td {
+    padding: 15px 25px;
+    text-align: left;
+}
+a{
+    border-radius: 20px;
+    padding: 9px 20px;
+    background-color: orange;
+    color: #fff;   
+    cursor: pointer;
+}
+.btn-remove{
+    background-color: red;   
+}
+div.validation-error{
+    color:   red;  
+}
+.hide{
+    display:none;
+}
