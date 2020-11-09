@@ -49,3 +49,8 @@ div.validation-error{
 .hide{
     display:none;
 }
+@media only screen and (max-width:480px){
+    table{
+        width: 100px;
+    }
+}
